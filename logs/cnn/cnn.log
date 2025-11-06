@@ -1,0 +1,64 @@
+2025-11-05 10:58:00,113 INFO: Log path: ../logs/cnn\cnn.log
+2025-11-05 10:58:00,114 INFO: Using device: cuda
+2025-11-05 10:58:00,248 INFO: nvidia-smi info:NVIDIA RTX A4000, 16376, 601, 4
+2025-11-05 10:58:47,882 INFO: Log path: ../logs/cnn\cnn.log
+2025-11-05 10:58:47,882 INFO: Using device: cuda
+2025-11-05 10:58:48,043 INFO: nvidia-smi info:NVIDIA RTX A4000, 16376, 605, 4
+2025-11-05 10:59:59,401 INFO: Train samples: 54355  Val samples: 118595  Classes: [(np.uint64(0), np.uint64(0)), 'Center', 'Donut', 'Edge-Loc', 'Edge-Ring', 'Loc', 'Near-full', 'Random', 'Scratch', 'none']
+2025-11-05 10:59:59,557 INFO: Model params: 28330
+2025-11-05 11:00:48,509 INFO: Epoch 1/1: train_loss=0.4610 val_loss=0.2653 val_acc=0.9352 lr=1.00e-03 time=49.0s
+2025-11-05 11:03:12,271 INFO: Log path: ../logs/cnn\cnn.log
+2025-11-05 11:03:12,271 INFO: Using device: cuda
+2025-11-05 11:03:12,443 INFO: nvidia-smi info:NVIDIA RTX A4000, 16376, 592, 4
+2025-11-05 11:04:25,901 INFO: Train samples: 54355  Val samples: 118595  Classes: [(np.uint64(0), np.uint64(0)), 'Center', 'Donut', 'Edge-Loc', 'Edge-Ring', 'Loc', 'Near-full', 'Random', 'Scratch', 'none']
+2025-11-05 11:04:26,066 INFO: Model params: 28330
+2025-11-05 11:05:15,151 INFO: Epoch 1/1: train_loss=0.4610 val_loss=0.2653 val_acc=0.9352 lr=1.00e-03 time=49.1s
+2025-11-05 11:05:15,152 INFO: Saved best model to ../logs/cnn\cnn_best.pth
+2025-11-05 11:06:05,773 INFO: Log path: ../logs/cnn\cnn.log
+2025-11-05 11:06:05,773 INFO: Using device: cuda
+2025-11-05 11:06:05,925 INFO: nvidia-smi info:NVIDIA RTX A4000, 16376, 591, 0
+2025-11-05 11:07:14,442 INFO: Train samples: 54355  Val samples: 118595  Classes: [(np.uint64(0), np.uint64(0)), 'Center', 'Donut', 'Edge-Loc', 'Edge-Ring', 'Loc', 'Near-full', 'Random', 'Scratch', 'none']
+2025-11-05 11:07:14,585 INFO: Model params: 28330
+2025-11-05 11:08:01,910 INFO: Epoch 1/12: train_loss=0.4610 val_loss=0.2653 val_acc=0.9352 lr=1.00e-03 time=47.3s
+2025-11-05 11:08:01,938 INFO: Saved best model to ../logs/cnn\cnn_best.pth
+2025-11-05 11:08:29,970 INFO: Epoch 2/12: train_loss=0.3125 val_loss=0.2494 val_acc=0.9460 lr=1.00e-03 time=28.0s
+2025-11-05 11:08:29,979 INFO: Saved best model to ../logs/cnn\cnn_best.pth
+2025-11-05 11:08:57,084 INFO: Epoch 3/12: train_loss=0.2643 val_loss=0.3449 val_acc=0.9408 lr=1.00e-03 time=27.1s
+2025-11-05 11:09:24,322 INFO: Epoch 4/12: train_loss=0.2298 val_loss=0.1815 val_acc=0.9476 lr=1.00e-03 time=27.2s
+2025-11-05 11:09:24,333 INFO: Saved best model to ../logs/cnn\cnn_best.pth
+2025-11-05 11:09:51,271 INFO: Epoch 5/12: train_loss=0.2075 val_loss=0.4648 val_acc=0.8818 lr=1.00e-03 time=26.9s
+2025-11-05 11:10:18,224 INFO: Epoch 6/12: train_loss=0.1918 val_loss=0.2873 val_acc=0.9369 lr=1.00e-03 time=27.0s
+2025-11-05 11:10:46,441 INFO: Epoch 7/12: train_loss=0.1816 val_loss=0.2305 val_acc=0.9503 lr=1.00e-03 time=28.2s
+2025-11-05 11:10:46,458 INFO: Early stopping
+2025-11-05 11:21:39,649 INFO: Log path: ../logs/cnn\cnn.log
+2025-11-05 11:21:39,649 INFO: Using device: cuda
+2025-11-05 11:21:39,801 INFO: nvidia-smi info:NVIDIA RTX A4000, 16376, 595, 4
+2025-11-05 11:23:49,302 INFO: Train samples: 54355  Val samples: 118595  Classes: [(np.uint64(0), np.uint64(0)), 'Center', 'Donut', 'Edge-Loc', 'Edge-Ring', 'Loc', 'Near-full', 'Random', 'Scratch', 'none']
+2025-11-05 11:23:49,474 INFO: Model params: 28330
+2025-11-05 11:25:06,207 INFO: Epoch 1/12: train_loss=0.5079 val_loss=0.3837 val_acc=0.9293 lr=1.00e-03 time=76.7s
+2025-11-05 11:25:06,207 INFO: Saved best model to ../logs/cnn\cnn_best.pth
+2025-11-05 11:25:57,553 INFO: Epoch 2/12: train_loss=0.3604 val_loss=0.2964 val_acc=0.9393 lr=1.00e-03 time=51.3s
+2025-11-05 11:25:57,553 INFO: Saved best model to ../logs/cnn\cnn_best.pth
+2025-11-05 11:26:49,231 INFO: Epoch 3/12: train_loss=0.3253 val_loss=0.3128 val_acc=0.9402 lr=1.00e-03 time=51.7s
+2025-11-05 11:27:41,077 INFO: Epoch 4/12: train_loss=0.2995 val_loss=0.2285 val_acc=0.9392 lr=1.00e-03 time=51.8s
+2025-11-05 11:27:41,093 INFO: Saved best model to ../logs/cnn\cnn_best.pth
+2025-11-05 11:28:34,585 INFO: Epoch 5/12: train_loss=0.2745 val_loss=0.3681 val_acc=0.9145 lr=1.00e-03 time=53.5s
+2025-11-05 11:29:26,984 INFO: Epoch 6/12: train_loss=0.2581 val_loss=0.3567 val_acc=0.9064 lr=1.00e-03 time=52.4s
+2025-11-05 11:30:19,956 INFO: Epoch 7/12: train_loss=0.2423 val_loss=0.4073 val_acc=0.8895 lr=1.00e-03 time=53.0s
+2025-11-05 11:30:19,958 INFO: Early stopping
+2025-11-05 13:11:53,464 INFO: Log path: ../logs/cnn\cnn.log
+2025-11-05 13:11:53,464 INFO: Using device: cuda
+2025-11-05 13:11:53,634 INFO: nvidia-smi info:NVIDIA RTX A4000, 16376, 609, 4
+2025-11-05 13:14:05,715 INFO: Train samples: 54355  Val samples: 118595  Classes: [(np.uint64(0), np.uint64(0)), 'Center', 'Donut', 'Edge-Loc', 'Edge-Ring', 'Loc', 'Near-full', 'Random', 'Scratch', 'none']
+2025-11-05 13:14:05,874 INFO: Model params: 28330
+2025-11-05 13:15:23,734 INFO: Epoch 1/12: train_loss=0.5079 val_loss=0.3837 val_acc=0.9293 lr=1.00e-03 time=77.9s
+2025-11-05 13:15:23,734 INFO: Saved best model to ../logs/cnn\cnn_best.pth
+2025-11-05 13:16:15,739 INFO: Epoch 2/12: train_loss=0.3604 val_loss=0.2964 val_acc=0.9393 lr=1.00e-03 time=52.0s
+2025-11-05 13:16:15,739 INFO: Saved best model to ../logs/cnn\cnn_best.pth
+2025-11-05 13:17:07,664 INFO: Epoch 3/12: train_loss=0.3253 val_loss=0.3128 val_acc=0.9402 lr=1.00e-03 time=51.9s
+2025-11-05 13:18:00,038 INFO: Epoch 4/12: train_loss=0.2995 val_loss=0.2285 val_acc=0.9392 lr=1.00e-03 time=52.4s
+2025-11-05 13:18:00,054 INFO: Saved best model to ../logs/cnn\cnn_best.pth
+2025-11-05 13:18:52,954 INFO: Epoch 5/12: train_loss=0.2745 val_loss=0.3681 val_acc=0.9145 lr=1.00e-03 time=52.9s
+2025-11-05 13:19:45,810 INFO: Epoch 6/12: train_loss=0.2581 val_loss=0.3567 val_acc=0.9064 lr=1.00e-03 time=52.9s
+2025-11-05 13:20:38,287 INFO: Epoch 7/12: train_loss=0.2423 val_loss=0.4073 val_acc=0.8895 lr=1.00e-03 time=52.5s
+2025-11-05 13:20:38,287 INFO: Early stopping
